@@ -33,3 +33,14 @@ Route::get('/', function () {
 Route::get('/', function () {
     return 'New';
 });
+
+
+
+//  newwwwwwwwwwwwwwwwwwwwwwwww
+Route::get('users', function () {
+    return 'Admin users';
+})->name('users');
+
+Route::get('posts', function () {
+    return 'Admin posts';
+})->name('posts');
