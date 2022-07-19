@@ -44,3 +44,7 @@ Route::get('users', function () {
 Route::get('posts', function () {
     return 'Admin posts';
 })->name('posts');
+
+Route::get('posts', function () {
+    return 'Admin posts';
+})->name('posts');
