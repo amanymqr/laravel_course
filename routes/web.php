@@ -20,3 +20,16 @@ Route::get('/', function () {
 Route::get('/', function () {
     return 'New';
 });
+
+Route::get('/', function () {
+    return 'New';
+});
+Route::get('/', function () {
+    return 'New';
+});
+Route::get('/', function () {
+    return 'New';
+});
+Route::get('/', function () {
+    return 'New';
+});
